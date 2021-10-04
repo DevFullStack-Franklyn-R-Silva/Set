@@ -13,16 +13,16 @@ public class Demo2 {
 		// union
 		Set<Integer> c = new TreeSet<>(a);
 		c.addAll(b);
-		System.out.println(c);
+		System.out.println("AUB: "+c);
 
 		// intersection
 		Set<Integer> d = new TreeSet<>(a);
 		d.retainAll(b);
-		System.out.println(d);
+		System.out.println("A∩B: "+d);
 
 		// difference
 		Set<Integer> e = new TreeSet<>(a);
 		e.removeAll(b);
-		System.out.println(e);
+		System.out.println("A–B: "+e);
 	}
 }
