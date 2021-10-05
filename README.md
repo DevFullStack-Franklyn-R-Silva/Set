@@ -1,7 +1,9 @@
 # Set
 ## * Representa um conjunto de elementos (similar ao da Álgebra) 
 
-* Não admite repetições • Elementos não possuem posição
+* Não admite repetições 
+
+*  Elementos não possuem posição
 
 * Acesso, inserção e remoção de elementos são rápidos 
 
